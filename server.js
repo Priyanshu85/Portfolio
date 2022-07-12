@@ -21,7 +21,7 @@ app.post("/", (req, res) => {
     service: "gmail",
     auth: {
       user: "webtoolswebsite@gmail.com",
-      pass: "thehiddenones",
+      pass: "ponxyykwgehjlrlh",
     },
   });
 
