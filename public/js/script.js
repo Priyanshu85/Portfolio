@@ -1,4 +1,10 @@
 "use strict";
+const fadeOut = () => {
+  const loaderWrapper=
+  document.querySelector('.wrapper');
+  loaderWrapper.classList.add('fade');
+}
+window.addEventListener('load', fadeOut);
 $(document).ready(function () {
   $(window).scroll(function () {
     if (this.scrollY > 20) {
