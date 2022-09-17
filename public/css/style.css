@@ -690,6 +690,18 @@ footer span a:hover {
   .services .serv-content .card {
     width: 100%;
   }
+  .about{
+    height: 130vh;
+    overflow: hidden;
+  }
+  .skills{
+    height: 100vh;
+    overflow: hidden;
+  }
+  .contact{
+    height: 120vh;
+    overflow: hidden;
+  }
 }
 
 @media (max-width: 500px) {
